@@ -1,0 +1,16 @@
+.header-links{
+   flex-wrap: wrap;
+   justify-content: space-around;
+   margin-bottom: 3rem;
+}
+
+
+.header-content{
+    flex-direction: column-reverse;
+}
+
+
+#cards{
+    grid-template-columns: repeat(auto-fill, 250px);
+    margin-bottom: 1em;
+}
